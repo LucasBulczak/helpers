@@ -49,7 +49,7 @@ import java.util.*;
  * @see Map
  * @see <a href="http://openjdk.java.net/jeps/269">JEP 269: Convenience Factory
  * Methods for Collections</a>
- * @since 0.2
+ * @since 0.4
  */
 class CreateAMap {
 
