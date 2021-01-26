@@ -25,6 +25,7 @@
         <version.plugin.maven.checkstyle>3.0.0</version.plugin.maven.checkstyle>
         <!-- dependencies versions -->
         <version.testng>7.3.0</version.testng>
+        <version.assertj>3.18.0</version.assertj>
     </properties>
 
     <dependencies>
@@ -32,6 +33,12 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${version.testng}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>${version.assertj}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
