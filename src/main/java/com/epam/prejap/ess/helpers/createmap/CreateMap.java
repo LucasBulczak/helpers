@@ -1,4 +1,4 @@
-package com.epam.prejap.ess.helpers.get.map;
+package com.epam.prejap.ess.helpers.createmap;
 
 import java.util.*;
 
@@ -42,16 +42,15 @@ import java.util.*;
  * an instance of the Immutable Map is created.</li></li></ol>
  *
  * <p>In the tests, you can see examples of each of the above statements
- * (ctrl + shift + T on {@link CreateAMap}).</p>
+ * (ctrl + shift + T on {@link CreateMap}).</p>
  *
  * @author Łukasz Bulczak
  * @see Collections
  * @see Map
  * @see <a href="http://openjdk.java.net/jeps/269">JEP 269: Convenience Factory
  * Methods for Collections</a>
- * @since 0.4
  */
-class CreateAMap {
+class CreateMap {
 
     /**
      * Returns an unmodifiable view of the specified map. Query operations

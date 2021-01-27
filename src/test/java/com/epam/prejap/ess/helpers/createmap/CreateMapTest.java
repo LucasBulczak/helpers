@@ -1,4 +1,4 @@
-package com.epam.prejap.ess.helpers.get.map;
+package com.epam.prejap.ess.helpers.createmap;
 
 import org.assertj.core.api.SoftAssertions;
 import org.testng.annotations.BeforeMethod;
@@ -9,10 +9,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.BiFunction;
 
-import static com.epam.prejap.ess.helpers.get.map.CreateAMap.*;
+import static com.epam.prejap.ess.helpers.createmap.CreateMap.*;
 import static org.assertj.core.api.Assertions.*;
 
-public class CreateAMapTest {
+public class CreateMapTest {
 
     private static final Class<UnsupportedOperationException> UOE = UnsupportedOperationException.class;
 
